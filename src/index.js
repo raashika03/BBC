@@ -59,17 +59,10 @@ const App = () => {
               type="text"
               id="myInput"
               onkeyup="myFunction()"
-              placeholder="Search.."
+              placeholder="Type here.."
               name="search"
             ></input>
-            <button type="submit">
-              <img
-                src="https://raw.githubusercontent.com/raashika03/webtrial/master/social_media_logos/s6.png"
-                width="14"
-                height="14"
-                alt="O"
-              ></img>
-            </button>
+            <button type="button" class="btn btn-default">Search</button>
           </form>
         </div>
       </div>
