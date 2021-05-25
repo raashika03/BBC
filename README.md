@@ -1,3 +1,5 @@
+Check out it's working here: https://ch210.csb.app/!#
+
 # BBC
 Created with CodeSandbox\
 App to list
@@ -23,5 +25,3 @@ A web app(using ReactJS) that has
         8. All quotes by the character
 
 APIs used to build the app - [https://breakingbadapi.com/documentation](https://breakingbadapi.com/documentation)
-\
-Check out it's working here: https://codesandbox.io/s/challenge-7-fetch-a-list-final-forked-2u384?file=/src/index.js
