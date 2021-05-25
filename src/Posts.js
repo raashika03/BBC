@@ -5,7 +5,7 @@ const Posts = ({ posts, loading }) => {
     return <h2>Loading...</h2>;
   }
   return (
-    <div class="row">
+    <div className="row">
       {/* Display data from API */}
       <div className="books">
         {posts.map((book, index) => {
@@ -17,7 +17,7 @@ const Posts = ({ posts, loading }) => {
                 <div id="myUL">
                   <p>Name: {book.name}</p>
                 </div>
-                <div class="fakeimg">
+                <div className="fakeimg">
                   <img
                     src={iaddr}
                     alt="Character pic"
