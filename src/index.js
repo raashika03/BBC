@@ -27,10 +27,10 @@ const App = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
   return (
     <div className="App">
-      <div class="header" id="home">
-        <div class="transbox">
+      <div className="header" id="home">
+        <div className="transbox">
           <h1>Breaking Bad Characters</h1>
-          <div class="img1">
+          <div className="img1">
             <img
               src="https://avatars1.githubusercontent.com/u/45493793?s=460&amp;u=81836d78246a7e3c0724635018ab93450d6ba9e6&amp;v=4"
               alt="Rashika Rathi"
@@ -45,23 +45,23 @@ const App = () => {
           </h3>
         </div>
       </div>
-      <div class="topnav">
-        <a class="active" href="#home">
+      <div className="topnav">
+        <a className="active" href="#home">
           Home
         </a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <div class="search-container">
+        <div className="search-container">
           <form action="/action_page.php">
             <input
               type="text"
               id="myInput"
-              onkeyup="myFunction()"
+              onKeyUp={myFunction}
               placeholder="Type here.."
               name="search"
             ></input>
-            <button type="button" class="btn btn-default">
-              <i class="bi bi-search"></i>
+            <button type="button" className="btn btn-default">
+              <i className="bi bi-search"></i>
             </button>
           </form>
         </div>
@@ -74,7 +74,7 @@ const App = () => {
           paginate={paginate}
         />
       </div>
-      <footer id="contact">
+      <div className="footer-content">
         <h2>Contact Me</h2>
         <address>
           Rashika Rathi<br></br>
@@ -83,16 +83,15 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            B18081, B16<br></br>IIT Mandi, India
+            IIT Mandi, India
           </a>
-          <br></br> +91-9113322022
         </address>
         <a
           href="https://www.facebook.com/rashika.sinha.75"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="bi bi-facebook"></i>
+          <i className="bi bi-facebook"></i>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a
@@ -100,7 +99,7 @@ const App = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="bi bi-twitter"></i>
+          <i className="bi bi-twitter"></i>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a
@@ -108,7 +107,7 @@ const App = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="bi bi-instagram"></i>
+          <i className="bi bi-instagram"></i>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a
@@ -116,10 +115,9 @@ const App = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="bi bi-linkedin"></i>
+          <i className="bi bi-linkedin"></i>
         </a>
-        <br></br>
-      </footer>
+      </div>
     </div>
   );
 };
