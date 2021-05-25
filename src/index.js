@@ -52,7 +52,7 @@ const App = () => {
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <div className="search-container">
-          <form action="/action_page.php">
+          <form className="example" action="/action_page.php">
             <input
               type="text"
               id="myInput"
@@ -60,7 +60,7 @@ const App = () => {
               placeholder="Type here.."
               name="search"
             ></input>
-            <button type="button" className="btn btn-default">
+            <button type="submit">
               <i className="bi bi-search"></i>
             </button>
           </form>
