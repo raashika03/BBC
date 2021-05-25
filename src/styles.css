@@ -57,8 +57,10 @@ body {
   color: black;
 }
 
-.transbox .img2 {
-  color: black;
+.img1 img {
+  border-radius: 50%;
+  height: 10%;
+  width: 20%;
 }
 
 .header h1 {
