@@ -74,7 +74,7 @@ const App = () => {
           paginate={paginate}
         />
       </div>
-      <div className="footer-content">
+      <div className="footer-content" id="contact">
         <h2>Contact Me</h2>
         <address>
           Rashika Rathi<br></br>
