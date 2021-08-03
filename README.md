@@ -1,4 +1,4 @@
-Check out it's working here: https://ch210.csb.app/!#
+Check out it's working here: https://ch210.csb.app/
 
 # BBC
 Created with CodeSandbox\
